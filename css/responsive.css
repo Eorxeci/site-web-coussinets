@@ -1,7 +1,7 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
-
   .hero_area {
     height: auto;
   }
@@ -15,10 +15,8 @@
   }
 
   .slider_section {
-
     padding-top: 75px;
     padding-bottom: 150px;
-
   }
 
   .about_section .img-box {
@@ -37,12 +35,9 @@
   .about_section .img_container .img-box.b2 {
     margin-top: -5%;
   }
-
 }
 
 @media (max-width: 768px) {
-
-
   .slider_section .detail_box {
     text-align: center;
   }
@@ -60,6 +55,10 @@
   }
 
   .info_section .info_social {
+    justify-content: center;
+  }
+
+  .tilt {
     justify-content: center;
   }
 
@@ -99,17 +98,18 @@
   }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+}
 
 @media (max-width: 420px) {
-
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
     right: 0;
   }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+}
 
 @media (min-width: 1200px) {
   .container {

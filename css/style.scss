@@ -1,6 +1,6 @@
 $white: #ffffff;
 $black: #000000;
-$primary1: #254DAD;
+$primary1: #254dad;
 $primary2: #371e71;
 
 @mixin main-font {
@@ -86,8 +86,6 @@ body {
   .hero_area {
     height: auto;
   }
-
-
 }
 
 .header_section {
@@ -191,9 +189,8 @@ a:focus {
     height: 4px;
     background-color: #092249;
     margin: 7px 0;
-    transition: all .3s;
+    transition: all 0.3s;
   }
-
 
   &[aria-expanded="true"] {
     .s-1 {
@@ -214,17 +211,13 @@ a:focus {
   }
 
   &[aria-expanded="false"] {
-
     .s-1,
     .s-2,
     .s-3 {
       transform: none;
     }
   }
-
 }
-
-
 
 /*end header section*/
 
@@ -241,8 +234,6 @@ a:focus {
   .row {
     align-items: center;
   }
-
-
 
   .detail_box {
     color: $black;
@@ -263,25 +254,21 @@ a:focus {
   }
 
   .img_container {
-    border: 7px solid #97BDEE;
+    border: 7px solid #97bdee;
     border-radius: 100%;
     overflow: hidden;
 
     div#carouselExampleContarols {
       width: 100%;
       position: unset;
-
-
     }
 
     .img-box {
-
       img {
         width: 100%;
       }
     }
   }
-
 
   .carousel-control-prev,
   .carousel-control-next {
@@ -297,7 +284,6 @@ a:focus {
     background-repeat: no-repeat;
     background-size: 8px;
     background-position: center;
-
   }
 
   .carousel-control-prev {
@@ -321,11 +307,9 @@ a:focus {
 }
 // end service section
 
-
-
 // about section
 .about_section {
-  background-color: #C6E2E6;
+  background-color: #c6e2e6;
 
   .row {
     align-items: center;
@@ -336,7 +320,7 @@ a:focus {
     flex-direction: column;
 
     .img-box {
-      border: 5px solid #97BDEE;
+      border: 5px solid #97bdee;
       border-radius: 100%;
       overflow: hidden;
 
@@ -359,7 +343,6 @@ a:focus {
   .detail-box {
     margin-right: 15%;
 
-
     p {
       margin-top: 25px;
     }
@@ -370,209 +353,200 @@ a:focus {
     }
   }
 
-// end about section
+  // end about section
 
-
-
-// blog section
-.blog_section {
-
-  .heading_container {
-    justify-content: center;
-
-    h2 {
-      &::before {
-        background-color: $white;
-      }
-    }
-  }
-
-  .box {
-    margin-top: 55px;
-    background-color: $white;
-    box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: .15);
-
-    .img-box {
-      position: relative;
-
-      img {
-        width: 100%;
-      }
-
-    }
-
-    .detail-box {
-      padding: 25px 25px 15px;
-
-      h5 {
-        font-weight: bold;
-      }
-    }
-  }
-}
-
-// end blog section
-
-// contact section
-.contact_section {
-  position: relative;
-
-
-  form {
-    margin-top: 45px;
-    padding-right: 35px;
-  }
-
-  input {
-    width: 100%;
-    border: none;
-    height: 50px;
-    margin-bottom: 25px;
-    padding-left: 25px;
-    background-color: transparent;
-    outline: none;
-    color: #101010;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
-
-    &::placeholder {
-      color: #737272;
-    }
-
-    &.message-box {
-      height: 120px;
-    }
-  }
-
-  button {
-    border: none;
-    @include hero_btn($primary1, $white, 12px, 45px, 0px);
-    margin-top: 35px;
-  }
-
-  .map_container {
-    height: 100%;
-    min-height: 325px;
-
-    .map-responsive {
-      height: 100%;
-    }
-  }
-}
-
-// end contact section
-
-
-
-.footer_bg {
-  background-image: url(../images/footer-bg.png);
-  background-size: cover;
-  background-position: top;
-}
-
-/* info section */
-.info_section {
-  background-color: #092249;
-  color: $white;
-
-  h6 {
-    font-weight: bold;
-  }
-
-
-  .info_contact {
-    margin-top: 60px;
-    margin-bottom: 45px;
-
-    .col-md-4 {
-      display: flex;
+  // blog section
+  .blog_section {
+    .heading_container {
       justify-content: center;
+
+      h2 {
+        &::before {
+          background-color: $white;
+        }
+      }
     }
 
-    a {
-      color: $white;
-    }
+    .box {
+      margin-top: 55px;
+      background-color: $white;
+      box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: 0.15);
 
-    img {
-      max-width: 100%;
-      margin-right: 10px;
-    }
-  }
+      .img-box {
+        position: relative;
 
-  .info_form {
-    margin: 0 auto;
-    margin-bottom: 45px;
-
-    h4 {
-      text-transform: uppercase;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    form {
-      display: flex;
-      align-items: center;
-
-      input {
-        background-color: $white;
-        border: none;
-        flex: 2.5;
-        outline: none;
-        color: $black;
-        min-height: 42.4px;
-        padding-left: 15px;
-
-        ::placeholder {
-          color: $white;
-          opacity: 0.2;
+        img {
+          width: 100%;
         }
       }
 
-      button {
-        flex: 1;
-        border: none;
-        @include hero_btn($primary1, $white, 10px, 30px, 0);
-        font-size: 15px;
-        text-transform: uppercase;
+      .detail-box {
+        padding: 25px 25px 15px;
+
+        h5 {
+          font-weight: bold;
+        }
       }
     }
   }
 
-  .box {
-    display: flex;
-  }
+  // end blog section
 
-  .info_social {
-    display: flex;
+  // contact section
+  .contact_section {
+    position: relative;
 
-    img {
-      width: 35px;
-      margin-right: 8px;
+    form {
+      margin-top: 45px;
+      padding-right: 35px;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      height: 50px;
+      margin-bottom: 25px;
+      padding-left: 25px;
+      background-color: transparent;
+      outline: none;
+      color: #101010;
+      -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+
+      &::placeholder {
+        color: #737272;
+      }
+
+      &.message-box {
+        height: 120px;
+      }
+    }
+
+    button {
+      border: none;
+      @include hero_btn($primary1, $white, 12px, 45px, 0px);
+      margin-top: 35px;
+    }
+
+    .map_container {
+      height: 100%;
+      min-height: 325px;
+
+      .map-responsive {
+        height: 100%;
+      }
     }
   }
-}
 
-/* end info section */
+  // end contact section
 
-/* footer section*/
-
-.footer_section {
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.footer_section p {
-  color: #222222;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-
-  a {
-    color: #222222;
+  .footer_bg {
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+    background-position: top;
   }
-}
 
+  /* info section */
+  .info_section {
+    background-color: #092249;
+    color: $white;
+
+    h6 {
+      font-weight: bold;
+    }
+
+    .info_contact {
+      margin-top: 60px;
+      margin-bottom: 45px;
+
+      .col-md-4 {
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        color: $white;
+      }
+
+      img {
+        max-width: 100%;
+        margin-right: 10px;
+      }
+    }
+
+    .info_form {
+      margin: 0 auto;
+      margin-bottom: 45px;
+
+      h4 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        align-items: center;
+
+        input {
+          background-color: $white;
+          border: none;
+          flex: 2.5;
+          outline: none;
+          color: $black;
+          min-height: 42.4px;
+          padding-left: 15px;
+
+          ::placeholder {
+            color: $white;
+            opacity: 0.2;
+          }
+        }
+
+        button {
+          flex: 1;
+          border: none;
+          @include hero_btn($primary1, $white, 10px, 30px, 0);
+          font-size: 15px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .box {
+      display: flex;
+    }
+
+    .info_social {
+      display: flex;
+
+      img {
+        width: 35px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  /* end info section */
+
+  /* footer section*/
+
+  .footer_section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .footer_section p {
+    color: #222222;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+
+    a {
+      color: #222222;
+    }
+  }
 }
 // end footer section
