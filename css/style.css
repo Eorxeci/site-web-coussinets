@@ -452,13 +452,13 @@ body {
 }
 
 .about_section .img_container .img-box.b1 {
-  width: 70%;
+  width: 50%;
 }
 
 .about_section .img_container .img-box.b2 {
-  width: 50%;
+  width: 30%;
   margin-left: auto;
-  margin-top: -12%;
+  margin-top: -50%;
 }
 
 .about_section .img_container .img-box img {
