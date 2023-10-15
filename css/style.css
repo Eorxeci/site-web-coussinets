@@ -410,6 +410,14 @@ body {
   margin-top: 25px;
 }
 
+.box-contact .detail-box-contact .detail-box-title-contact {
+  color: #183e7a;
+  font-weight: 600;
+  position: relative;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
 .detail-box-title {
   color: #183e7a;
   font-weight: 600;

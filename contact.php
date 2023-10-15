@@ -111,41 +111,42 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="box-contact">
-              <div class="detail-box-contact">
-                <a class="detail-box-title-contact">Par mail</a>
-                <p>
-                  Contactez-nous par mail à l'adresse
-                  <bold style="font-weight: bold"
-                    >lescoussinetsdelamitie@gmail.com</bold
-                  >
-                </p>
+            <form method="post">
+              <div>
+                <input
+                  type="text"
+                  name="identite"
+                  placeholder="NOM Prénom"
+                  required
+                />
               </div>
-            </div>
-            <div class="box-contact">
-              <div class="detail-box-contact">
-                <a class="detail-box-title-contact">Par téléphone</a>
-                <p>
-                  Joignez-nous directement par téléphone au 06.52.86.49.79
-                  <br />
-                  ou au 07 86 25 27 86
-                </p>
+              <div>
+                <input type="email" name="email" placeholder="Email" required />
               </div>
-            </div>
-            <div class="box-contact">
-              <div class="detail-box-contact">
-                <a class="detail-box-title-contact">Via Messenger</a>
-                <p>
-                  Contactez-nous directement via
-                  <a
-                    class="button-contact"
-                    href="https://www.facebook.com/profile.php?id=100093385792592&locale=fr_FR"
-                    >Messenger</a
-                  >
-                  (Facebook)
-                </p>
+              <div>
+                <input type="text" name="sujet" placeholder="Sujet" required />
               </div>
-            </div>
+              <div>
+                <input
+                  type="text"
+                  name="message"
+                  class="message-box"
+                  placeholder="Message"
+                  required
+                />
+              </div>
+              <div class="d-flex">
+                <input type="submit" value="Envoyer" />
+              </div>
+            </form>
+            <?php
+              if (isset($_POST["message"])) {
+                $retour = mail("ecathignol@gmail.com", $_POST["sujet"], $_POST["message"], "From:contact@exemplesite.fr\r\nReply-to:" . $_POST["email"]);
+                if ($retour) {
+                  echo "<p>L'email a bien été envoyé</p>";
+                }
+             }
+            ?>
           </div>
           <div class="col-md-6">
             <div class="map_container">
