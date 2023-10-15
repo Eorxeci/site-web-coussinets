@@ -101,7 +101,8 @@ body {
 .custom_nav-container {
   .navbar-nav {
     .nav-item {
-      .nav-link {
+      .nav-link,
+      .nav-link-deroulant {
         padding: 7px 20px;
         margin: 10px 15px;
         color: $black;
@@ -113,7 +114,8 @@ body {
 
       &.active,
       &:hover {
-        .nav-link {
+        .nav-link,
+        .nav-link-deroulant {
           background-color: $primary1;
           color: $white;
         }
