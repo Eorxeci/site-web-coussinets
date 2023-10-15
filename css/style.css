@@ -36,7 +36,7 @@ body {
   display: flex;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -508,7 +508,13 @@ body {
 }
 
 .about_section .detail-box {
-  margin-right: 15%;
+  text-align: center;
+}
+
+.about_section .detail-box h5 {
+  position: relative;
+  margin-right: 8px;
+  color: #183e7a;
 }
 
 .about_section .detail-box p {
@@ -526,6 +532,7 @@ body {
 
 .about_section .detail-box a:hover {
   background-color: #183e7a;
+  text-decoration: none;
 }
 
 .blog_section .heading_container {
