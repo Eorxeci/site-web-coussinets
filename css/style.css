@@ -56,7 +56,6 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 98vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -352,6 +351,82 @@ body {
   background-color: #183e7a;
 }
 
+.about_section .carousel-control-prev,
+.about_section .carousel-control-next {
+  top: initial;
+  left: initial;
+  bottom: 5%;
+  right: 10%;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 100%;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: center;
+}
+
+.about_section .carousel-control-prev {
+  background-image: url(../images/prev.png);
+  background-color: #925c2f;
+  -webkit-transform: translate(-85px, 30px);
+  transform: translate(-800px, -500%);
+  transition: background-color 0.3s ease-out 100ms;
+  
+}
+
+.about_section .carousel-control-next {
+  background-image: url(../images/next.png);
+  background-color: #925c2f;
+  -webkit-transform: translate(-45px, 0);
+  transform: translate(-170px, -500%);
+  transition: background-color 0.3s ease-out 100ms;
+}
+
+.about_section .carousel-control-prev:hover,
+.about_section .carousel-control-next:hover {
+  background-color: #684121;
+}
+
+.blog_section .carousel-control-prev,
+.blog_section .carousel-control-next {
+  top: initial;
+  left: initial;
+  bottom: 5%;
+  right: 10%;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 100%;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: center;
+}
+
+.blog_section .carousel-control-prev {
+  background-image: url(../images/prev.png);
+  background-color: #254dad;
+  -webkit-transform: translate(-85px, 30px);
+  transform: translate(5px, 40px);
+  transition: background-color 0.3s ease-out 100ms;
+  
+}
+
+.blog_section .carousel-control-next {
+  background-image: url(../images/next.png);
+  background-color: #254dad;
+  -webkit-transform: translate(-45px, 0);
+  transform: translate(45px, 39px);
+  transition: background-color 0.3s ease-out 100ms;
+}
+
+.blog_section .carousel-control-prev:hover,
+.blog_section .carousel-control-next:hover {
+  background-color: #183e7a;
+}
+
 .service_section {
   text-align: center;
 }
@@ -446,6 +521,22 @@ body {
 
 .detail-box-presentation-particulier {
   font-size: 13px;
+}
+
+.detail-box-presentation-adopted {
+  font-size: 15px;
+  background-color: #c73389;
+  border-radius: 35px;
+  padding: 10px;
+  color: #fff;
+  transition: background-color 0.3s ease-out 100ms;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-box-presentation-adopted:hover {
+  background-color: #942767;
+  color: #fff;
 }
 
 .service_section .service_container .box:hover,
@@ -599,6 +690,16 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img-box-event img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #925c2f;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .blog_section .box .detail-box {

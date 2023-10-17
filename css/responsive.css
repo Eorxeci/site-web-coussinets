@@ -103,7 +103,9 @@
 
 @media (max-width: 420px) {
   .slider_section .carousel-control-prev,
-  .slider_section .carousel-control-next {
+  .slider_section .carousel-control-next,
+  .about_section .carousel-control-prev,
+  .about_section .carousel-control-next {
     right: 0;
   }
 }
