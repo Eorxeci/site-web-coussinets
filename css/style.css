@@ -510,11 +510,14 @@ body {
   padding: 10px;
   color: #fff;
   transition: background-color 0.3s ease-out 100ms;
+  display: flex;
+  justify-content: center;
 }
 
 .detail-box-presentation-contact:hover {
   background-color: #183e7a;
   color: #fff;
+  text-decoration: none;
 }
 
 .detail-box-presentation-particulier {
@@ -535,6 +538,7 @@ body {
 .detail-box-presentation-adopted:hover {
   background-color: #942767;
   color: #fff;
+  text-decoration: none;
 }
 
 .service_section .service_container .box:hover,
