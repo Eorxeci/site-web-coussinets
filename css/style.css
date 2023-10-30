@@ -708,6 +708,16 @@ body {
   overflow: hidden;
 }
 
+.img-box-about img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #183e7a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .blog_section .box .detail-box {
   padding: 25px 25px 15px;
 }
