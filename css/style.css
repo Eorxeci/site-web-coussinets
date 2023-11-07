@@ -80,7 +80,7 @@ body {
 }
 
 .nav-item.active {
-  background-color: #97bdee;
+  background-color: #97BDEE;
   border-radius: 35px;
   color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -189,7 +189,7 @@ body {
 .navbar-brand span {
   font-size: 22px;
   font-weight: 700;
-  color: #254dad;
+  color: #092249;
 }
 
 .custom_nav-container {
@@ -300,7 +300,7 @@ body {
 }
 
 .slider_section .img_container {
-  border: 7px solid #97bdee;
+  border: 7px solid #183e7a;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -569,7 +569,7 @@ body {
 }
 
 .about_section {
-  background-color: #c6e2e6;
+  background-color: #C6E2E6;
 }
 
 .about_section .row {
@@ -589,7 +589,7 @@ body {
 }
 
 .about_section .img_container .img-box {
-  border: 5px solid #97bdee;
+  border: 5px solid #97BDEE;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -846,7 +846,7 @@ body {
 }
 
 .info_section .info_social_text {
-  color: #c6e2e6;
+  color: #97BDEE;
 }
 
 .info_section .info_social_text:hover {
