@@ -297,6 +297,7 @@ body {
 
 .slider_section .detail_box a:hover {
   background-color: #183e7a;
+  text-decoration: none;
 }
 
 .slider_section .img_container {
@@ -627,8 +628,10 @@ body {
   padding: 10px 35px;
   background-color: #254dad;
   color: #ffffff;
-  border-radius: 5px;
-  margin: 25px 0 45px 0;
+  border-radius: 35px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  transition: background-color 0.3s ease-out 100ms;
 }
 
 .about_section .detail-box a:hover {
@@ -810,8 +813,8 @@ body {
 }
 
 .info_section .info_contact {
-  margin-top: 60px;
-  margin-bottom: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .info_section .info_contact .col-md-4 {
@@ -830,6 +833,34 @@ body {
 .info_section .info_contact img {
   max-width: 100%;
   margin-right: 10px;
+}
+
+.info_section .info_reseau {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info_section .info_reseau .col-md-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.info_section .info_reseau a {
+  color: #ffffff;
+}
+
+.info_section .info_reseau img {
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.info_reseau .reseau {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .info_section .box {
