@@ -80,7 +80,7 @@ body {
 }
 
 .nav-item.active {
-  background-color: #97BDEE;
+  background-color: #97bdee;
   border-radius: 35px;
   color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -301,9 +301,15 @@ body {
 }
 
 .slider_section .img_container {
-  border: 7px solid #183e7a;
+  border: 2px;
   border-radius: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   overflow: hidden;
+  transition: box-shadow 0.3s ease-out 100ms;
+}
+
+.slider_section .img_container:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.65);
 }
 
 .slider_section .img_container div#carouselExampleContarols {
@@ -434,6 +440,14 @@ body {
   max-width: 100%;
   height: auto;
   margin-right: 15px;
+  border: 3px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-out 100ms;
+}
+
+.service_section .fb-page:hover {
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.35);
 }
 
 .service_section .heading_container {
@@ -502,6 +516,7 @@ body {
 
 .detail-box-presentation {
   font-size: 15px;
+  height: 90px;
 }
 
 .detail-box-presentation-contact {
@@ -570,7 +585,7 @@ body {
 }
 
 .about_section {
-  background-color: #C6E2E6;
+  background-color: #c6e2e6;
 }
 
 .about_section .row {
@@ -590,7 +605,7 @@ body {
 }
 
 .about_section .img_container .img-box {
-  border: 5px solid #97BDEE;
+  border: 5px solid #97bdee;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -877,7 +892,7 @@ body {
 }
 
 .info_section .info_social_text {
-  color: #97BDEE;
+  color: #97bdee;
 }
 
 .info_section .info_social_text:hover {
