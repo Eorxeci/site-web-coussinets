@@ -47,7 +47,7 @@ body {
   position: relative;
   font-weight: bold;
   margin-right: 10px;
-  color: #183e7a;
+  color: #092249;
 }
 
 .heading_container img {
@@ -303,7 +303,7 @@ body {
 .slider_section .img_container {
   border: 2px;
   border-radius: 100%;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px 0 rgba(9, 34, 73, 10);
   overflow: hidden;
   transition: box-shadow 0.3s ease-out 100ms;
 }
@@ -484,6 +484,7 @@ body {
 
 .service_section .service_container .box .img-box img {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .service_section .service_container .box .detail-box p {
@@ -559,7 +560,7 @@ body {
 
 .service_section .service_container .box:hover,
 .service_section .service_container .box.active {
-  border-top: 15px solid #254dad;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
 }
 
 .service_section .btn-box {
