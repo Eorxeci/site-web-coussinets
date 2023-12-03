@@ -37,16 +37,7 @@
     <link href="css/responsive.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <div id="fb-root"></div>
-    <script
-      async
-      defer
-      crossorigin="anonymous"
-      src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v18.0"
-      nonce="WvXkJoRS"
-    ></script>
-
+  <body class="sub_page">
     <div class="hero_area">
       <!-- header section strats -->
       <header class="header_section">
@@ -75,7 +66,7 @@
                 class="d-flex ml-auto flex-column flex-lg-row align-items-center"
               >
                 <ul class="navbar-nav">
-                  <li class="nav-item active">
+                  <li class="nav-item">
                     <a class="nav-link" href="index.html">
                       Accueil <span class="sr-only">(current)</span></a
                     >
@@ -86,7 +77,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="sauvetage.html"> Sauvetages </a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link" href="adoption.html"> Adoptions </a>
                   </li>
                   <li class="nav-item">
@@ -107,26 +98,18 @@
         </div>
       </header>
       <!-- end header section -->
-      <!-- slider section -->
-      <section class="slider_section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="detail_box">
-                <h1>
-                  Association <br />
-                  de protection <br />
-                  animale
-                </h1>
-                <p>
-                  Sauvetages de chats, trappage et campagne de stérilisation sur
-                  la commune de Marcilly-en-Villette. <br />
-                  De nombreux chats et chatons à adopter !
-                </p>
-                <a href="contact.html"> Nous contacter </a>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-6 offset-lg-1">
+    </div>
+
+    <!-- blog section -->
+
+    <section class="blog_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Calypso - Son Histoire</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="box">
               <div class="img_content">
                 <div class="img_container">
                   <div
@@ -136,156 +119,87 @@
                   >
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <div class="img-box">
-                          <a href="a-patty-patou.html"
-                            ><img
-                              src="images/Actu/actu_a_patty_patou.png"
-                              alt=""
-                          /></a>
+                        <div class="img-box-particulier">
+                          <img src="images/Adoption/a_calypso.jpg" alt="" />
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="a-missy-eminem.html"
-                            ><img
-                              src="images/Actu/actu_a_missy_eminem.png"
-                              alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="a-calypso.html"
-                            ><img src="images/Actu/actu_a_calypso.png" alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="a-ying-yang.html"
-                            ><img src="images/Actu/actu_a_ying_yang.png" alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a
-                            href="https://www.instagram.com/p/C0JxNGgK_3Q/?img_index=1"
-                            ><img
-                              src="images/Actu/actu_s_missy_eminem.png"
-                              alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="help.html#fa"
-                            ><img src="images/Actu/actu_e_recherche_fa" alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="about.html#noel"
-                            ><img
-                              src="images/Actu/actu_e_marche_noel2.png"
-                              alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="about.html#fiv"
-                            ><img src="images/Actu/actu_e_fiv2.png" alt=""
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-box">
-                          <a href="https://www.30millionsdamis.fr/"
-                            ><img
-                              src="images/Actu/actu_e_sterilisation.png"
-                              alt=""
-                          /></a>
+                        <div class="img-box-particulier">
+                          <img src="images/Adoption/a_calypso (3).jpg" alt="" />
                         </div>
                       </div>
                     </div>
+                    <div class="img_content">
+                      <a
+                        class="carousel-control-prev"
+                        href="#carouselExampleControls"
+                        role="button"
+                        data-slide="prev"
+                      >
+                        <span class="sr-only">Précédent</span>
+                      </a>
+                      <a
+                        class="carousel-control-next"
+                        href="#carouselExampleControls"
+                        role="button"
+                        data-slide="next"
+                      >
+                        <span class="sr-only">Suivant</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleControls"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span class="sr-only">Précédent</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleControls"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span class="sr-only">Suivant</span>
-                </a>
+                <h5 class="detail-box-title">Calypso</h5>
+                <p class="detail-box-presentation">
+                  Calypso (femelle tigrée et blanche 2 mois et demi), <br />
+                  Fille de Duchesse.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="box-explanation">
+              <div class="detail-box">
+                <p class="detail-box-presentation-particulier">
+                  Calypso est la seule de sa portée à ne pas être réservée. Sa
+                  mère Duchesse et ses six frères et soeurs avaient été trouvés
+                  dans un carton dans la forêt de Marcilly-en-Villette alors
+                  qu'ils n'avaient que 2 jours. 😔 <br />
+                  Ses frères et soeurs ainsi que sa maman ont été réservé, il ne
+                  reste plus qu'elle.
+                  <br />
+                  C'est une petite chatte timide les premières minutes mais qui
+                  vous donnera vite sa confiance ! 🫶🏻 <br />
+                  Très curieuse, elle adore explorer ! 🤩 Une fois qu'elle vous
+                  connait, elle se collera à vous pour de longues séances de
+                  câlins ! 🥰 <br />
+                  Alors si vous souhaitez plus d’infos, n’hésitez pas à
+                  <a href="contact.html">nous contacter</a>!
+                </p>
+              </div>
+            </div>
+            <div class="box-explanation">
+              <div class="detail-box">
+                <p class="detail-box-presentation-particulier">
+                  🖋️ Nom : Calypso <br />
+                  📆 Age : 2 mois et demi <br />
+                  🐈‍⬛ Caractéristiques physiques : typée Européen, tigrée et
+                  blanche
+                  <br />
+                  🏥 Stérilisée : non <br />
+                  <br />
+                  🐈 Ententes chats : oui, à vérifier <br />
+                  🐕 Ententes chiens : inconnu <br />
+                  🌳 Extérieur : inconnu <br />
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- end slider section -->
-    </div>
-
-    <!-- service section -->
-    <section class="service_section layout_padding">
-      <div class="container">
-        <div class="heading_container">
-          <h2>Les dernières nouveautés</h2>
-        </div>
-        <div
-          class="fb-page"
-          data-href="https://www.facebook.com/profile.php?id=100093385792592&amp;locale=hi_IN&amp;paipv=0&amp;eav=AfbnCAXMc_LRtODV1IS2UYhZETx1pCe59JSzjI_7-Kvas_VImnG6AT6erxekSHQzXtU"
-          data-tabs="timeline"
-          data-width="500"
-          data-height="500"
-          data-small-header="false"
-          data-adapt-container-width="true"
-          data-hide-cover="false"
-          data-show-facepile="false"
-        >
-          <blockquote
-            cite="https://www.facebook.com/profile.php?id=100093385792592&amp;locale=hi_IN&amp;paipv=0&amp;eav=AfbnCAXMc_LRtODV1IS2UYhZETx1pCe59JSzjI_7-Kvas_VImnG6AT6erxekSHQzXtU"
-            class="fb-xfbml-parse-ignore"
-          >
-            <a
-              href="https://www.facebook.com/profile.php?id=100093385792592&amp;locale=hi_IN&amp;paipv=0&amp;eav=AfbnCAXMc_LRtODV1IS2UYhZETx1pCe59JSzjI_7-Kvas_VImnG6AT6erxekSHQzXtU"
-              >Les coussinets de l&#039;amitié
-            </a>
-          </blockquote>
-        </div>
-        <div
-          class="fb-page"
-          data-href="https://www.facebook.com/lesgamellesdelamitie"
-          data-tabs="timeline"
-          data-width="500"
-          data-height="500"
-          data-small-header="false"
-          data-adapt-container-width="true"
-          data-hide-cover="false"
-          data-show-facepile="false"
-        >
-          <blockquote
-            cite="https://www.facebook.com/lesgamellesdelamitie"
-            class="fb-xfbml-parse-ignore"
-          >
-            <a href="https://www.facebook.com/lesgamellesdelamitie"
-              >Les gamelles de l&#039;amitié</a
-            >
-          </blockquote>
-        </div>
       </div>
     </section>
-    <!-- end service section -->
+
+    <!-- end blog section -->
 
     <!-- info section -->
     <section class="info_section layout_padding">
