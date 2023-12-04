@@ -979,12 +979,12 @@ body {
   line-height: 1.8;
   font-weight: 100;
   text-decoration: none;
-  color: inherit;
+  color: grey;
   font-size: 13px;
 }
 
 .footer-distributed .footer-links a:hover {
-  font-weight: 400;
+  color: #ffffff;
 }
 
 .footer-distributed .footer-company-name {
@@ -1094,8 +1094,7 @@ body {
   margin-bottom: 10px;
 }
 
-.footer-center .fa-phone:hover
-{
+.footer-center .fa-phone:hover {
   color: #ffffff;
 }
 /* If you don't want the footer to be responsive, remove these media queries */
