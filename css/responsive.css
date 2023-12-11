@@ -125,4 +125,18 @@
   .container {
     width: 80%;
   }
+
+  .nav-item {
+    align-self: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+
+  .nav-item {
+    align-self: center;
+  }
 }
