@@ -1,0 +1,13 @@
+Options +FollowSymlinks RewriteEngine on RewriteRule ^contact$ /contact.php [L]
+RewriteRule ^adoption-bagheera$/a-bagheera.html [L] RewriteRule
+^adoption-calypso$/a-calypso.html [L] RewriteRule
+^adoption-duchesse$/a-duchesse.html [L] RewriteRule ^adoption-gaia$/a-gaia.html
+[L] RewriteRule ^adoption-hera$/a-hera.html [L] RewriteRule
+^adoption-missy-eminem$/a-missy-eminem.html [L] RewriteRule
+^adoption-mouche-moustique$/a-mouche-moustique.html [L] RewriteRule
+^adoption-patty-patou$/a-patty-patou.html [L] RewriteRule
+^adoption-ying-yang$/a-ying-yang.html [L] RewriteRule ^a-propos$/about.html [L]
+RewriteRule ^adopter$/adopter.html [L] RewriteRule ^adoption$/adoption.html [L]
+RewriteRule ^contact$/contact.html [L] RewriteRule
+^contact-formulaire$/contact1.html [L] RewriteRule ^aide$/help.html [L]
+RewriteRule ^accueil$/index.html [L] RewriteRule ^sauvetages$/sauvetage.html [L]
