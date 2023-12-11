@@ -35,6 +35,14 @@
   .about_section .img_container .img-box.b2 {
     margin-top: -5%;
   }
+
+  .box-nouvelles .detail-box a {
+    font-size: 13px;
+  }
+
+  .service_section .service_container .box-nouvelles {
+    height: 145px;
+  }
 }
 
 @media (max-width: 768px) {
