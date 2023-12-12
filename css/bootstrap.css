@@ -582,7 +582,7 @@ pre code {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1091,7 +1091,7 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1268,7 +1268,7 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -4643,7 +4643,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1400px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
