@@ -29,6 +29,7 @@
 
   .header_section {
     padding-top: 10px;
+    margin-left: -30px;
   }
 
   #navbarSupportedContent {
@@ -111,6 +112,10 @@
 }
 
 @media (max-width: 576px) {
+  .detail-box h1 {
+    font-size: 1,5rem;
+  } 
+
   .about_section .img_container .img-box.b1 {
     width: 80%;
   }
