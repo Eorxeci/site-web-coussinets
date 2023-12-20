@@ -1,3 +1,17 @@
+@media (max-width: 3000px) {
+  .service_section .service_container .box {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 20%;
+  }
+}
+
+@media (max-width: 1800px) {
+  .service_section .service_container .box {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 30%;
+  }
+}
+
 @media (max-width: 1380px) {
   .blog_section .box .detail-box {
     padding: 10px 5px;

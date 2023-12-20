@@ -839,7 +839,7 @@ body {
 
 .contact_section .map_container {
   height: 100%;
-  min-height: 325px;
+  min-height: 35rem;
 }
 
 .contact_section .map_container .map-responsive {
@@ -1163,6 +1163,11 @@ body {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+}
+
+.sos {
+  font-weight: 600;
+  color: #830f0f;
 }
 
 /*# sourceMappingURL=style.css.map */
