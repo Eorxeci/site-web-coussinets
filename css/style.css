@@ -514,6 +514,11 @@ body {
   margin-top: 25px;
 }
 
+.box-nouvelles .detail-box-title:hover {
+  text-decoration: none;
+  color: #183e7a;
+}
+
 .service_section .service_container .box .img-box img {
   width: 100%;
   margin-bottom: 15px;
@@ -939,7 +944,6 @@ body {
   margin-right: 8px;
   align-items: center;
 }
-
 
 .nouvelles-images {
   display: flex;
