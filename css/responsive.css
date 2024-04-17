@@ -5,7 +5,7 @@
   }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 2000px) {
   .service_section .service_container .col-md-4 {
     -ms-flex-preferred-size: 48%;
     flex-basis: 30%;

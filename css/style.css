@@ -1201,4 +1201,16 @@ body {
   color: #830f0f;
 }
 
+#tarifs {
+  color: #254DAD;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  transition: text-decoration 0.3s ease-out 100ms;
+}
+
+#tarifs:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
