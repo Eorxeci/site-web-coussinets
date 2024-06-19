@@ -72,9 +72,26 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Logo favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const links = document.querySelectorAll('a[href^="#"]');
+        for (const link of links) {
+          link.addEventListener("click", function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+              behavior: "smooth"
+            });
+          });
+        }
+      });
+    </script>
   </head>
 
-  <body class="sub_page">
+  <body class="sub_page" id="up">
     <div class="hero_area">
       <!-- header section strats -->
       <header class="header_section">
@@ -136,6 +153,12 @@
       </header>
       <!-- end header section -->
     </div>
+
+    <section class="backup" style="position: fixed; bottom: 10%; right: 3%; z-index: 10;">
+      <div>
+        <a href="#up"><img src="images/backup_arrow.png" title="Revenir en haut de la page" style="width: 70px;"></a>
+      </div>
+    </section>
 
     <!-- blog section -->
 
@@ -378,12 +401,17 @@
           <div class="col-md-4">
             <div class="box">
               <div class="img-box">
-                <a href="fiches-adoption/a-celeste-diane-tiki-frimousse-jazz.html"
+                <a
+                  href="fiches-adoption/a-celeste-diane-tiki-frimousse-jazz.html"
                   ><img src="images/Adoption/a_chatons_emilie.jpg" alt=""
                 /></a>
               </div>
               <div class="detail-box">
-                <a href="fiches-adoption/a-celeste-diane-tiki-frimousse-jazz.html" class="detail-box-title">Céleste, Diane, Tiki, Frimousse et Jazz</a>
+                <a
+                  href="fiches-adoption/a-celeste-diane-tiki-frimousse-jazz.html"
+                  class="detail-box-title"
+                  >Céleste, Diane, Tiki, Frimousse et Jazz</a
+                >
                 <p class="detail-box-presentation">
                   Femelles et Mâles noirs et gris-blanc (environ 2 mois), <br />
                   fratrie de cinq recomposée

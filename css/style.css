@@ -693,9 +693,9 @@ body {
 }
 
 .about_section .col-md-6 .detail-box {
-  background-color: #c6e2e6;
+  background-color: #c6e2e652;
   padding: 10px;
-  border-radius: 15%;
+  border-radius: 2%;
   box-shadow: 0 0 10px 0 rgba(9, 34, 73, 10);
   overflow: hidden;
 }
