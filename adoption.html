@@ -77,13 +77,13 @@
 
     <!-- JavaScript for smooth scrolling -->
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
         const links = document.querySelectorAll('a[href^="#"]');
         for (const link of links) {
-          link.addEventListener("click", function(e) {
+          link.addEventListener("click", function (e) {
             e.preventDefault();
             document.querySelector(this.getAttribute("href")).scrollIntoView({
-              behavior: "smooth"
+              behavior: "smooth",
             });
           });
         }
@@ -154,9 +154,17 @@
       <!-- end header section -->
     </div>
 
-    <section class="backup" style="position: fixed; bottom: 10%; right: 3%; z-index: 10;">
+    <section
+      class="backup"
+      style="position: fixed; bottom: 10%; right: 3%; z-index: 10"
+    >
       <div>
-        <a href="#up"><img src="images/backup_arrow.png" title="Revenir en haut de la page" style="width: 70px;"></a>
+        <a href="#up"
+          ><img
+            src="images/backup_arrow.png"
+            title="Revenir en haut de la page"
+            style="width: 70px"
+        /></a>
       </div>
     </section>
 
@@ -221,6 +229,26 @@
           <div class="col-md-4">
             <div class="box">
               <div class="img-box">
+                <a href="fiches-adoption/a-mousse.html"
+                  ><img src="images/Adoption/a_mousse.jpg" alt=""
+                /></a>
+              </div>
+              <div class="detail-box">
+                <a href="fiches-adoption/a-mousse.html" class="detail-box-title"
+                  >Mousse</a
+                >
+                <p class="detail-box-presentation">
+                  Mâle blanc-tigré (1 an et demi)
+                </p>
+              </div>
+              <a href="contact.html" class="detail-box-presentation-contact">
+                Nous contacter</a
+              >
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
                 <a href="fiches-adoption/a-mimine.html"
                   ><img src="images/Adoption/a_mimine.jpg" alt=""
                 /></a>
@@ -231,9 +259,7 @@
                 >
                 <p class="detail-box-presentation">Femelle gris-bleu (4 ans)</p>
               </div>
-              <a href="contact.html" class="detail-box-presentation-contact">
-                Nous contacter</a
-              >
+              <a class="detail-box-presentation-adopted"> Réservée !</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -251,29 +277,7 @@
                   Femelle blanc-tigré (1 an)
                 </p>
               </div>
-              <a href="contact.html" class="detail-box-presentation-contact">
-                Nous contacter</a
-              >
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="box">
-              <div class="img-box">
-                <a href="fiches-adoption/a-mousse.html"
-                  ><img src="images/Adoption/a_mousse.jpg" alt=""
-                /></a>
-              </div>
-              <div class="detail-box">
-                <a href="fiches-adoption/a-mousse.html" class="detail-box-title"
-                  >Mousse</a
-                >
-                <p class="detail-box-presentation">
-                  Mâle blanc-tigré (1 an et demi)
-                </p>
-              </div>
-              <a href="contact.html" class="detail-box-presentation-contact">
-                Nous contacter</a
-              >
+              <a class="detail-box-presentation-adopted"> Réservée !</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -413,8 +417,7 @@
                   >Céleste, Diane, Tiki, Frimousse et Jazz</a
                 >
                 <p class="detail-box-presentation">
-                  Femelles et Mâles noirs et gris-blanc (environ 2 mois), <br />
-                  fratrie de cinq recomposée
+                  Femelles et Mâles noirs et gris-blanc (environ 2 mois)
                 </p>
               </div>
               <a href="contact.html" class="detail-box-presentation-contact">
@@ -438,9 +441,7 @@
                   frère de Basilic et Estragon
                 </p>
               </div>
-              <a href="contact.html" class="detail-box-presentation-contact">
-                Nous contacter</a
-              >
+              <a class="detail-box-presentation-adopted"> Adopté !</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -459,7 +460,7 @@
                   Lucius et Drago (mâles noirs 3 mois).
                 </p>
               </div>
-              <a class="detail-box-presentation-adopted"> Réservés !</a>
+              <a class="detail-box-presentation-adopted"> Adoptés !</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -609,7 +610,7 @@
           <div>
             <i class="fa fa-map-marker"></i>
             <a href="contact.html"
-              ><img src="images/location-white.png" /> Menestreau-en-Villette,
+              ><img src="images/location-white.png" /> Marcilly-en-Villette,
               Loiret, France</a
             >
           </div>

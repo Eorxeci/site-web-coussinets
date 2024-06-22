@@ -77,13 +77,13 @@
 
     <!-- JavaScript for smooth scrolling -->
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
         const links = document.querySelectorAll('a[href^="#"]');
         for (const link of links) {
-          link.addEventListener("click", function(e) {
+          link.addEventListener("click", function (e) {
             e.preventDefault();
             document.querySelector(this.getAttribute("href")).scrollIntoView({
-              behavior: "smooth"
+              behavior: "smooth",
             });
           });
         }
@@ -154,9 +154,17 @@
       <!-- end header section -->
     </div>
 
-    <section class="backup" style="position: fixed; bottom: 10%; right: 3%; z-index: 10;">
+    <section
+      class="backup"
+      style="position: fixed; bottom: 10%; right: 3%; z-index: 10"
+    >
       <div>
-        <a href="#up"><img src="images/backup_arrow.png" title="Revenir en haut de la page" style="width: 70px;"></a>
+        <a href="#up"
+          ><img
+            src="images/backup_arrow.png"
+            title="Revenir en haut de la page"
+            style="width: 70px"
+        /></a>
       </div>
     </section>
 
@@ -196,6 +204,59 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="event_section layout_padding" id="tattoo">
+      <div class="container">
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2>Événement !</h2>
+          </div>
+          <p>
+            Vous avez quelque chose de prévu le samedi 29 juin? Maintenant oui!
+            🥰 <br />
+            Vous souhaitez aider la cause animale et vous faire plaisir? Nous
+            avons la solution 🫶🏻 Retrouvez-nous au salon de piercing et
+            tatouage
+            <a href="https://www.la-douce-epine-piercing.fr/" target="_blank"
+              >La Douce Épine</a
+            >
+            pour une journée spécial flash animaliers. 🐈‍⬛ Principe du premier
+            arrivé, premier servit! Tous les flashs seront à prix réduit et une
+            bonne partie de l’argent récolté sera reversé à l’association 🙏🏻
+            <br />
+            Nos tatoueurs présents : la super Chloé
+            <a href="https://www.instagram.com/kalatea.ttt/" target="_blank"
+              >@kalatea.ttt</a
+            >
+            et le génial Romain
+            <a href="https://www.instagram.com/rsk_tattoo/" target="_blank"
+              >@rsk_tattoo</a
+            >
+            (qui a adopté chez nous récemment) 🫶🏻 Vous êtes plutôt piercing? 🤔
+            Pas de soucis!
+            <a href="https://www.instagram.com/la.douce.epine/" target="_blank"
+              >La Douce Épine</a
+            >
+            vous propose tout un choix de piercings et de bijoux 🫶🏻 <br />
+            Nous serons présents toute la journée pour discuter avec vous. (Et
+            sûrement nous faire tatouer également oups!) Alors n’hésitez pas à
+            nous rejoindre! <br />
+            🗓️ Le 29 juin 2024 <br />
+            🕑 De 10h à 19h <br />
+            📍18 rue de Cheverny 41700 CONTRES <br />
+            Merci à eux d’avoir pensé à nous et d’organiser ce super événement!
+            💙 On vous attend nombreux !!
+          </p>
+        </div>
+        <div class="img-box-about">
+          <a
+            href="https://www.facebook.com/share/p/VV9EXVjENCcSmS5D/"
+            target="_blank"
+            ><img src="images/Actu/actu_e_tattoo.jpg"
+          /></a>
         </div>
       </div>
     </section>
@@ -272,7 +333,7 @@
         </div>
         <div class="img-box-about">
           <a
-            href="https://www.instagram.com/p/C1uHaHaqiM4/?img_index=1"
+            href="https://www.instagram.com/p/C4GbihWKfAQ/?img_index=1"
             target="_blank"
             ><img src="images/Actu/actu_e_sterilisation.jpg"
           /></a>
@@ -369,7 +430,7 @@
           <div>
             <i class="fa fa-map-marker"></i>
             <a href="contact.html"
-              ><img src="images/location-white.png" /> Menestreau-en-Villette,
+              ><img src="images/location-white.png" /> Marcilly-en-Villette,
               Loiret, France</a
             >
           </div>
