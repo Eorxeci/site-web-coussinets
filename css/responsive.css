@@ -5,6 +5,12 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .index_title_section .box {
+    margin-bottom: 11%;
+  }
+}
+
 @media (max-width: 2000px) {
   .service_section .service_container .col-md-4 {
     -ms-flex-preferred-size: 48%;
@@ -37,10 +43,13 @@
 
   .index_carousel_section .img_container {
     width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .index_carousel_section .box .titles h3 {
-    right: -17%;
+    right: 0%;
   }
 }
 
@@ -74,6 +83,7 @@
 @media (max-width: 1250px) {
   .index_title_section .box {
     margin-top: 5%;
+    padding: 5%;
   }
 }
 
