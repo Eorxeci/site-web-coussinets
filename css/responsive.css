@@ -9,6 +9,10 @@
   .index_title_section .box {
     margin-bottom: 11%;
   }
+
+  .about_title_section {
+    margin-bottom: 15%;
+  }
 }
 
 @media (max-width: 2000px) {
@@ -50,6 +54,12 @@
 
   .index_carousel_section .box .titles h3 {
     right: 0%;
+  }
+
+  .about_event_section .container {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 12%;
   }
 }
 
@@ -142,6 +152,32 @@
 
   .service_section .service_container .box-nouvelles {
     height: 145px;
+  }
+
+  .about_event_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about_event_section .about_navbar {
+    position: initial;
+    top: 0px;
+    width: 100%;
+  }
+
+  .about_event_content {
+    margin-top: 5%;
+  }
+
+  .about_event_section .container {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .about_event_menu {
+    margin-bottom: 3%;
   }
 }
 

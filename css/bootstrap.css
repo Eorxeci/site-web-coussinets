@@ -4539,6 +4539,32 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.about_navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+}
+
+.about_navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.about_navbar-toggler:hover,
+.about_navbar-toggler:focus {
+  text-decoration: none;
+}
+
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
