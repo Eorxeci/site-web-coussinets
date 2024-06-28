@@ -34,6 +34,18 @@
   .index_carousel_section .box .titles h3 {
     right: -23%;
   }
+
+  .adopt_carousel_section .img_container .carousel-inner {
+    width: 30em;
+  }
+
+  .adopt_carousel_section .img_container {
+    width: 30em;
+  }
+
+  .adopt_carousel_section .box .titles h3 {
+    right: -23%;
+  }
 }
 
 @media (max-width: 1560px) {
@@ -56,6 +68,21 @@
     right: 0%;
   }
 
+  .adopt_carousel_section .img_container .carousel-inner {
+    width: 25em;
+  }
+
+  .adopt_carousel_section .img_container {
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adopt_carousel_section .box .titles h3 {
+    right: -15%;
+  }
+
   .about_event_section .container {
     width: 100%;
     padding-left: 4%;
@@ -76,6 +103,13 @@
     margin-bottom: 10%;
     margin-top: 10%;
   }
+
+  .adopt_title_section .box {
+    text-align: center;
+    width: 100%;
+    right: 0;
+    padding: 0.5% 10%;
+  }
 }
 
 @media (max-width: 1350px) {
@@ -85,6 +119,11 @@
   }
 
   .index_carousel_section .box .titles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adopt_carousel_section .box .titles {
     flex-direction: column;
     align-items: center;
   }
@@ -202,6 +241,11 @@
 
   .sauvetage_img_box a {
     padding: 0% 2% !important;
+  }
+
+  .adopt_title_section .box {
+    padding: 0.5% 5%;
+    margin-top: 0.5%;
   }
 }
 
