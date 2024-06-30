@@ -127,6 +127,19 @@
     flex-direction: column;
     align-items: center;
   }
+
+  #adoptItem2 {
+    order: 3;
+  }
+
+  #adoptItem3 {
+    order: 2;
+  }
+
+  #tarifs {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -246,6 +259,15 @@
   .adopt_title_section .box {
     padding: 0.5% 5%;
     margin-top: 0.5%;
+  }
+
+  .adopt_title_section .box h1 {
+    font-size: 270%;
+    margin-top: -2%;
+  }
+
+  .adopt_title_section .box a {
+    margin-top: 10px;
   }
 }
 
