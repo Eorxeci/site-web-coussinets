@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta
+      name="google-site-verification"
+      content="4tOmGK7caF5Jzo9kYc2l0ecJX19QbP1Uy4UpHQMTqKo"
+    />
+    <meta
+      name="keywords"
+      content="les coussinets de l'amitie, coussinets de amitie, coussinet, amitie, chats, chatons, adoption, animal, sauvetage animaux, sauvetages, adopter chat, adopter chaton, adopter, association, protection, sterilisation, gamelles de l'amitie, gamelles, animaux"
+    />
+    <meta
+      name="description"
+      content="Site web de l'association Les Coussinets de l'Amitié"
+    />
+    <meta name="author" content="Eorxeci" />
+
+    <meta http-equiv="content-language" content="fr" />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://lescoussinets.delamitie.fr/contact1.html"
+    />
+    <meta
+      property="og:title"
+      content="Les Coussinets de l'Amitié - Association de protection féline"
+    />
+    <meta property="og:description" content="Nous contacter" />
+    <meta
+      property="og:image"
+      content="https://lescoussinets.delamitie.fr/images/logo.png"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Les Coussinets de l'Amitié",
+        "url": "https://lescoussinets.delamitie.fr",
+        "logo": "https://lescoussinets.delamitie.fr/images/logo-sans-fond.png"
+      }
+    </script>
+
+    <title>Les Coussinets de l'Amitié</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Logo favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+
+  <body class="sub_page">
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo-sans-fond.png" />
+              <span> Les Coussinets de l'Amitié </span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div
+                class="d-flex ml-auto flex-column flex-lg-row align-items-center"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                      Accueil <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"> A propos </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sauvetage.html"> Sauvetages </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="adoption.html"> A l'adoption </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="adopter.html">
+                      Adopter - Nouvelles des adoptés
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="help.html"> Nous aider </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html"> Nous contacter </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+    </div>
+
+    <!-- contact section -->
+
+    <section class="contact_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Contactez-nous !</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <form method="post">
+              <div>
+                <input
+                  type="text"
+                  name="identite"
+                  placeholder="NOM Prénom"
+                  required
+                />
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Email" required />
+              </div>
+              <div>
+                <input type="text" name="sujet" placeholder="Sujet" required />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="message"
+                  class="message-box"
+                  placeholder="Message"
+                  required
+                />
+              </div>
+              <div class="d-flex">
+                <button>ENVOYER</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="map_container">
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Marcilly-en-Villette+France"
+                  width="600"
+                  height="300"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 100%"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact section -->
+
+    <!-- info section -->
+    <section>
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <h3>Les Coussinets <span>de l'Amitié</span></h3>
+
+          <p class="footer-links">
+            <a href="index.html">Accueil</a>
+
+            <a href="about.html">A propos</a>
+
+            <a href="sauvetage.html">Sauvetages</a>
+
+            <a href="adoption.html">A l'adoption</a>
+
+            <a href="adopter.html">Adopter - Nouvelles des adoptés</a>
+
+            <a href="help.html">Nous aider</a>
+
+            <a href="contact.html">Nous contacter</a>
+          </p>
+
+          <p class="footer-company-name">
+            Les Coussinets de l'Amitié © 06-2024
+          </p>
+        </div>
+
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <a href="contact.html"
+              ><img src="images/location-white.png" /> Marcilly-en-Villette,
+              Loiret, France</a
+            >
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <a class=""
+              ><img src="images/telephone-white.png" /> Tel : 07 86 25 27 86</a
+            >
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:lescoussinetsdelamitie@gmail.com"
+              ><img src="images/envelope-white.png" />
+              lescoussinetsdelamitie@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>Suivez-nous sur les réseaux !</span>
+            Retrouvez-nous sur Facebook et Instagram aux liens suivants.
+          </p>
+
+          <div class="footer-icons">
+            <a
+              href="https://www.facebook.com/profile.php?id=100093385792592"
+              target="_blank"
+              ><img
+                src="images/fb.png"
+                alt=""
+                onmouseover="this.src='images/fb-hover.png';"
+                onmouseout="this.src='images/fb.png';" /><i
+                class="fa fa-facebook"
+              ></i
+            ></a>
+            <a
+              href="https://www.instagram.com/les_coussinets_de_lamitie/"
+              target="_blank"
+              ><img
+                src="images/instagram.png"
+                alt=""
+                onmouseover="this.src='images/instagram-hover.png';"
+                onmouseout="this.src='images/instagram.png';" /><i
+                class="fa fa-twitter"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
