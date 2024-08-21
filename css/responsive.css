@@ -22,6 +22,12 @@
   }
 }
 
+@media (min-width: 1900px) {
+  .adopt_carousel_section .box h2 {
+    padding-top: 4%;
+  }
+}
+
 @media (max-width: 1800px) {
   .index_carousel_section .img_container .carousel-inner {
     width: 30em;
